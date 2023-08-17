@@ -1,4 +1,4 @@
-# picacg pc 漫画格式转换为komga可以识别的，需要在picacg漫画所在根目录运行
+# picacg pc 漫画格式转换为komga可以识别的，或者压缩进行保存，需要在picacg漫画所在根目录运行
 # picacg pc github：https://github.com/tonquer/picacg-qt
 # komga github：https://github.com/gotson/komga
 import os,sys,zipfile,natsort
