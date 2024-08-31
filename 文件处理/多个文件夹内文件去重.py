@@ -38,6 +38,8 @@ for folder in args.folders:
                 else:
                     print(f'删除重复文件: {files_dict[size]}')
                     os.remove(files_dict[size])
+                    del files_dict[size]
+            continue
         # 将文件的大小和哈希值添加到字典中
         files_dict[size] = file_path
 
